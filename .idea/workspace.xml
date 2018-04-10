@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a6fd65-f5cf-4980-a135-8af1c5007787" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/superheros/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/superheros/Superman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/superheros/BlackHeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/superheros/IBlackHeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/superheros/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/superheros/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/superheros/Spawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/superheros/Spawn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +21,12 @@
       <file leaf-file-name="Superhero.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/superheros/Superhero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <folding>
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,18 +34,20 @@
       <file leaf-file-name="Spawn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/superheros/Spawn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="59" />
+            <state relative-caret-position="221">
+              <caret line="17" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" />
               <folding>
                 <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlackHeroes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/superheros/BlackHeroes.java">
+      <file leaf-file-name="IBlackHeroes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/superheros/IBlackHeroes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -60,8 +67,23 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/superheros/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="100" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+            <state relative-caret-position="323">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Superman.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/superheros/Superman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,11 +112,12 @@
         <option value="$PROJECT_DIR$/src/main/java/demointerface/IPayable.java" />
         <option value="$PROJECT_DIR$/src/main/java/demointerface/Invoice.java" />
         <option value="$PROJECT_DIR$/../abstractlab/src/main/java/labtwo/Invoice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/superheros/Superhero.java" />
         <option value="$PROJECT_DIR$/src/main/java/superheros/BlackHeroes.java" />
         <option value="$PROJECT_DIR$/src/main/java/superheros/IFlightSpeed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/superheros/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/superheros/Superhero.java" />
         <option value="$PROJECT_DIR$/src/main/java/superheros/Spawn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/superheros/Superman.java" />
+        <option value="$PROJECT_DIR$/src/main/java/superheros/Main.java" />
       </list>
     </option>
   </component>
@@ -267,10 +290,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32967034" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4533493" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3050239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24960753" />
       <window_info id="UI Designer" order="2" />
@@ -289,10 +312,10 @@
       <window_info anchor="bottom" id="Find" order="2" weight="0.32967034" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32967034" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24960753" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4533493" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30622008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -302,7 +325,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -450,6 +473,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/superheros/IBlackHeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/superheros/IFlightSpeed.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -457,35 +487,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/superheros/BlackHeroes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/superheros/Superhero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/superheros/Spawn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="59" />
+        <state relative-caret-position="221">
+          <caret line="17" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" />
           <folding>
             <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/superheros/Superhero.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/superheros/Superman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/superheros/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="100" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+        <state relative-caret-position="323">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
         </state>
       </provider>
     </entry>

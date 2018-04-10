@@ -1,8 +1,6 @@
 package superheros;
 
-import java.util.Arrays;
-
-public class Spawn extends Superhero implements IFlightSpeed, BlackHeroes{
+public class Spawn extends Superhero implements IFlightSpeed, IBlackHeroes {
 
 
     public Spawn(){

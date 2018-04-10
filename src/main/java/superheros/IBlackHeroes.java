@@ -1,5 +1,5 @@
 package superheros;
 
-public interface BlackHeroes{
+public interface IBlackHeroes {
     String myBlackHero();
 }
