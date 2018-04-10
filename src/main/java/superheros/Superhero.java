@@ -31,8 +31,8 @@ public abstract class  Superhero {
         this.realName = realName;
     }
 
-    public String[] getSpecialPowers() {
-        return specialPowers;
+    public String getSpecialPowers() {
+        return Arrays.toString(specialPowers);
     }
 
     public void setSpecialPowers(String[] specialPowers) {
